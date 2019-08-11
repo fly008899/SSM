@@ -34,7 +34,7 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
-
+<!--尝试同步-->
         <!-- 引入spring相关的jar -->
         <dependency>
             <groupId>org.springframework</groupId>
