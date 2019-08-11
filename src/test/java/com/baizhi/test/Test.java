@@ -10,6 +10,7 @@ import java.util.UUID;
 public class Test {
     @org.junit.Test
     public void test() {
+        System.out.println("添加一行输出");
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserDAO dao = (UserDAO) ac.getBean("userDAO");
         dao.save(new User(UUID.randomUUID().toString(), "WH", "123456", 20));
